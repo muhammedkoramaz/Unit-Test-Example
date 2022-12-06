@@ -16,7 +16,7 @@ namespace JobApplicationLibrary
         {
             this.identityValidator = identityValidator;
         }
-        public ApplicationResult Evaluate(JobApplication form) //Unit test işlemi bu metotta yapılacak.
+        public ApplicationResult Evaluate(JobApplication form)
         {
             if(form.Applicant is null)
                 throw new ArgumentNullException();
