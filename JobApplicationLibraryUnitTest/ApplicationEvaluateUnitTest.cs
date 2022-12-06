@@ -10,7 +10,6 @@ namespace JobApplicationLibraryUnitTest
 {
     public class ApplicationEvaluateUnitTest
     {
-        //Ýsimlendirme olarak ( UnitOfWork_Condition_ExpectedResult) formatý tavsiye edilir.
         [Test]
         public void Application_WithUnderAge_TransferredToAutoRejected()
         {
